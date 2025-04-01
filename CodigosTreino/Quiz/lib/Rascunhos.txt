@@ -1,0 +1,7 @@
+final String? respostaTelaDois;
+  final String? respostaCorretaTelaDois = "2.00KM";
+
+  final String? respostaTelaTres;
+  final String? respostaCorretaTelaTres = "FR";
+
+The Weather api
