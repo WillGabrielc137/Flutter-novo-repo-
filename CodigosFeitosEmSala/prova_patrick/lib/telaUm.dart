@@ -93,8 +93,8 @@ class _telaUmState extends State<telaUm> {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
-            const Color.fromRGBO(187, 222, 251, 1),
-            const Color.fromRGBO(100, 181, 246, 1),
+              const Color.fromRGBO(187, 222, 251, 1),
+              const Color.fromRGBO(100, 181, 246, 1),
             ],
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
@@ -122,7 +122,9 @@ class _telaUmState extends State<telaUm> {
                 style: TextStyle(color: const Color.fromRGBO(0, 0, 0, 1)),
                 decoration: InputDecoration(
                   labelText: "Nome:",
-                  labelStyle: TextStyle(color: const Color.fromRGBO(0, 0, 0, 1)),
+                  labelStyle: TextStyle(
+                    color: const Color.fromRGBO(0, 0, 0, 1),
+                  ),
                   filled: true,
                   fillColor: const Color.fromRGBO(133, 200, 255, 1),
                   contentPadding: EdgeInsets.symmetric(
@@ -148,7 +150,9 @@ class _telaUmState extends State<telaUm> {
                 style: TextStyle(color: const Color.fromRGBO(0, 0, 0, 1)),
                 decoration: InputDecoration(
                   labelText: "Idade:",
-                  labelStyle: TextStyle(color: const Color.fromRGBO(0, 0, 0, 1)),
+                  labelStyle: TextStyle(
+                    color: const Color.fromRGBO(0, 0, 0, 1),
+                  ),
                   filled: true,
                   fillColor: const Color.fromRGBO(133, 200, 255, 1),
                   contentPadding: EdgeInsets.symmetric(
